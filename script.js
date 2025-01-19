@@ -23,3 +23,4 @@ navigator.mediaDevices.getUserMedia({ audio: true }).then((stream) => {
     }
     detectBlow();
 }).catch((err) => console.error('Microphone access denied:', err));
+
